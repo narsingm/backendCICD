@@ -3,7 +3,7 @@ const app = express()
 
 app.get('/',(req,res) => {
     res.json({
-        mesg: 'Hello Backend side '
+        mesg: 'Hello Backend side test'
     })
  
 })
